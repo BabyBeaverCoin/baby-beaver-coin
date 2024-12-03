@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #3b4e6d;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ff7a00;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ff7a00;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navbar nav ul li {
+    font-size: 18px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #about .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  #about img {
+    width: 250px;
+    height: auto;
+  }
+  
+  #about .text {
+    max-width: 500px;
+  }
+  
+  #about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Roadmap Section */
+  #roadmap {
+    padding: 60px 20px;
+    background-color: #eef2f5;
+    text-align: center;
+  }
+  
+  #roadmap h2 {
+    font-size: 32px;
+  }
+  
+  #roadmap ul {
+    font-size: 20px;
+    padding-left: 0;
+  }
+  
+  /* Join Section */
+  #join {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #ff7a00;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e55b00;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3b4e6d;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 4%;
+  }
